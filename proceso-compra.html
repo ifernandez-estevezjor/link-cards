@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- End Meta Tags -->
+    
+    <title>Link-Cards - Proceso de Compra</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <!-- End Favicon -->
+
+    <!-- Styles & Transitions -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/hover-master/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- End Styles -->
+
+</head>
+
+<body class="background-compra">
+
+  <div class="text-center fs-2 back-icon mt-3"><a href="index.html" class="text-decoration-none text-dark hvr-grow"><i class="bi bi-arrow-counterclockwise"></i> Regresar</a></div>
+
+  <div class="container d-flex align-items-center justify-content-center" style="height: 80vh;">
+
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3 mt-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link text-start my-2 active bg-body-secondary text-compra" id="v-pills-plantilla-tab" data-bs-toggle="pill" data-bs-target="#v-pills-plantilla" type="button" role="tab" aria-controls="v-pills-plantilla" aria-selected="true"><img src="./assets/img/plantilla.png" class="img-compra" alt="Plantilla"> 1. Elige tu plantilla</button>
+        <button class="nav-link text-start my-2 bg-body-secondary text-compra" id="v-pills-requisitar-tab" data-bs-toggle="pill" data-bs-target="#v-pills-requisitar" type="button" role="tab" aria-controls="v-pills-requisitar" aria-selected="false"><img src="./assets/img/requisitar.png" class="img-compra" alt="Plantilla"> 2. Requisita los datos</button>
+        <button class="nav-link text-start my-2 bg-body-secondary text-compra" id="v-pills-pago-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pago" type="button" role="tab" aria-controls="v-pills-pago" aria-selected="false"><img src="./assets/img/pagos.png" class="img-compra" alt="Plantilla"> 3. Realiza tu pago</button>
+        <button class="nav-link text-start my-2 bg-body-secondary text-compra" id="v-pills-asesorias-tab" data-bs-toggle="pill" data-bs-target="#v-pills-asesorias" type="button" role="tab" aria-controls="v-pills-asesorias" aria-selected="false"><img src="./assets/img/asesorias.png" class="img-compra" alt="Plantilla"> 4. Asesorías personales</button>
+        <button class="nav-link text-start my-2 bg-body-secondary text-compra" id="v-pills-compartir-tab" data-bs-toggle="pill" data-bs-target="#v-pills-compartir" type="button" role="tab" aria-controls="v-pills-compartir" aria-selected="false"><img src="./assets/img/compartir.png" class="img-compra" alt="Plantilla"> 5. Empieza a compartir</button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-plantilla" role="tabpanel" aria-labelledby="v-pills-plantilla-tab" tabindex="0">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body text-center">
+                  <img src="./assets/img/1_plantilla.png" class="mb-2 img-info" alt="Elige tu plantilla">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                  <h4 class="text-plantilla">1. Elige tu plantilla</h4>
+                  <p class="py-3">Navega para encontrar el plan y la Link Card que se ajuste a tu estilo y personalidad.</p>
+                  <p>
+                    <ul>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Elige la mejor opción</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Precios accesibles</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> La mejor calidad</li>
+                    </ul>
+                  </p>
+                  <p class="py-3"><a href="#" class="btn bg-body-secondary"><span class="text-plantilla">Más información</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-requisitar" role="tabpanel" aria-labelledby="v-pills-requisitar-tab" tabindex="0">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body text-center">
+                  <img src="./assets/img/2_requisitar.png" class="ms-4 mb-2 img-info" alt="Requisita los datos">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                  <h4 class="text-requisitar">2. Requisita los datos</h4>
+                  <p class="py-3">Llena un formulario con tus datos personales, <br> profesionales y multimedia de acuerdo al diseño que elegiste.</p>
+                  <p>
+                    <ul>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Confidencialidad</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Confianza</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> La mejor administración</li>
+                    </ul>
+                  </p>
+                  <p class="py-3"><a href="#" class="btn bg-body-secondary"><span class="text-requisitar">Más información</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-pago" role="tabpanel" aria-labelledby="v-pills-pago-tab" tabindex="0">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body text-center">
+                  <img src="./assets/img/3_pago.png" class="mb-2 img-info" alt="Elige tu plantilla">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                  <h4 class="text-pago">3. Realiza tu pago</h4>
+                  <p class="py-3">Navega para encontrar el plan y la Link Card que se ajuste a tu estilo y personalidad.</p>
+                  <p>
+                    <ul>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Elige la mejor opción</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Precios accesibles</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> La mejor calidad</li>
+                    </ul>
+                  </p>
+                  <p class="py-3"><a href="#" class="btn bg-body-secondary"><span class="text-pago">Más información</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-asesorias" role="tabpanel" aria-labelledby="v-pills-asesorias-tab" tabindex="0">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body text-center">
+                  <img src="./assets/img/4_asesorias.png" class="mb-2 img-info" alt="Elige tu plantilla">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                  <h4 class="text-asesorias">4. Asesorías personales</h4>
+                  <p class="py-3">Navega para encontrar el plan y la Link Card que se ajuste a tu estilo y personalidad.</p>
+                  <p>
+                    <ul>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Elige la mejor opción</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Precios accesibles</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> La mejor calidad</li>
+                    </ul>
+                  </p>
+                  <p class="py-3"><a href="#" class="btn bg-body-secondary"><span class="text-asesorias">Más información</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-compartir" role="tabpanel" aria-labelledby="v-pills-compartir-tab" tabindex="0">
+          <div class="row align-items-center">
+            <div class="col-sm-5">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body text-center">
+                  <img src="./assets/img/5_compartir.png" class="mb-2 img-info" alt="Empieza a compartir">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-transparent">
+                <div class="card-body">
+                  <h4 class="text-compartir">5. Empieza a compartir</h4>
+                  <p class="py-3">Navega para encontrar el plan y la Link Card que se ajuste a tu estilo y personalidad.</p>
+                  <p>
+                    <ul>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Elige la mejor opción</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> Precios accesibles</li>
+                      <li class="list-group-item"><img src="./assets/img/check.png" class="img-check" alt="Check"> La mejor calidad</li>
+                    </ul>
+                  </p>
+                  <p class="py-3"><a href="#" class="btn bg-body-secondary"><span class="text-compartir">Más información</span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
